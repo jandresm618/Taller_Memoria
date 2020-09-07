@@ -1,0 +1,106 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{listings}
+\usepackage{graphicx}
+\graphicspath{ {imagenes/} }
+\usepackage{cite}
+
+\begin{document}
+
+\begin{titlepage}
+    \begin{center}
+        \vspace*{1cm}
+            
+        \Huge
+        \textbf{Taller de Memoria del Computador}
+            
+        \vspace{0.5cm}
+        \LARGE
+        Proyecto de Invetigación
+            
+        \vspace{1.5cm}
+            
+        \textbf{Javier Andrés Mosquera Merchán}
+            
+        \vfill
+            
+        \vspace{0.8cm}
+            
+        \Large
+        Despartamento de Ingeniería Electrónica y Telecomunicaciones\\
+        Universidad de Antioquia\\
+        Medellín\\
+        Septiembre de 2020
+            
+    \end{center}
+\end{titlepage}
+
+\tableofcontents
+
+\section{INTRODUCCIÓN}
+Este documento es un desarrollo de respuestas investigativas, enfocadas en preguntas especificas del tema de memorias de un computador. Esto basado en un documento desarrollado por el profesor y jefe del departamento de ingenieria electronica de la universidad de Antioquia, Augusto Salazar, donde se describe el funcionamiento del computador y de que manera la memoria se involucra en cada proceso de dicho funcionamiento, además de describir el comportamiento de varios tipos de memorias que encontramos en un computador.\cite{referencia}
+
+Las preguntas a responder son:
+
+- Defina que es la memoria del computador.
+
+- Mencione los tipos de memoria que conoce y haga una pequeña descripción de cada tipo.
+
+-Describa la manera como se gestiona la memoria en un computador.
+
+- ¿Qué hace que una memoria sea mas rapida que otra? ¿Por qué esto es importante?
+
+\section{CONTENIDO} \label{contenido}
+A continuación se presentara cada de las respuestas a cada pregunta presentadas en el documento guia.\cite{referencia}
+Se aboradaran varias referencias de manera que haya una sintesis explícita y conjunta que responda cada pregunta.
+
+\subsection{Definicion de Memoria del Computador}\label{pregunta1}
+Para definir la memoria del computador no es necesario investigar mucho al respecto, una persona escogida al azar, y que a su vez haya vivido alguna experiencia cercana a un ordenador puede darnos una definición vaga que nos de mucha información sobre la memoria de un computador. Sin embargo, a un estudiante de las ciencias de la tecnologia no le basta con una respuesta de este tipo, para él es necesario, además de un concepto "desmenuzado", un soporte válido de la información que quiere obtener. Por ésta razón, es necesario adjuntar definiciones oficiales que me guien a dar una definición completa sobre la memoria de un computador.
+
+Wikipedia, una pagina que brinda información a la comunidad, sobre cualquier tema, dice lo siguiente sobre la memoria:
+"En informática, la memoria es el dispositivo que retiene, memoriza o almacena datos informáticos durante algún periodo de tiempo.1​La memoria proporciona una de las principales funciones de la computación moderna: el almacenamiento de información y conocimiento. Es uno de los componentes fundamentales de la computadora, que interconectada a la unidad central de procesamiento (CPU, por las siglas en inglés de Central Processing Unit) y los dispositivos de entrada/salida, implementan lo fundamental del modelo de computadora de la arquitectura de Von Neumann."\cite{wikipedia}
+
+Ahora buscamos que dicen los fabricantes al respecto, Kingstone es uno de los fabricantes mas famosos de memorias en el mundo, y en su pagina web nos advirten sobre la diferencia entre memoria y almacenamiento, lo que nos dicen es: "Mientras la memoria se refiere a la ubicación de los datos a corto plazo, el almacenamiento es el componente de su computadora que le permite almacenar y acceder a datos a largo plazo. Usualmente, el almacenamiento se da en forma de una unidad de estado sólido o un disco duro. El almacenamiento le permite acceder y almacenar sus aplicaciones, sistema operativo y archivos por un tiempo indefinido.", entonces debemos tener cuidado con lo que llamamos memoria.\cite{kingstone}
+
+Aunque es difícil encontrar mas definiciones generales con respecto a la memoria de un computador, sin que se refieran a algun tipo en especifico, adjuntare una definición de la memoria en general, esto con el objetivo de analizar si debemos tener restricciones en el lenguaje cuando llamamos un elemento como memoria.
+
+Al teclear en google definiciones de la memoria, resulta que google tiene su propia seccion de definiciones elaborada por la universidad de Oxford donde nos dan las siguientes definiciones:
+\begin{itemize}
+    \item
+    "Capacidad de recordar."\cite{google}
+    \item
+    "Imagen o conjunto de imágenes de hechos o situaciones pasados que quedan en la mente."\cite{google}
+    \item
+    "Dispositivo de una máquina donde se almacenan datos o instrucciones que posteriormente se pueden utilizar."\cite{google}
+\end{itemize}
+
+Finalmente con toda la informacion recopilada podemos, por fin, dar una buena definición de memoria del computador, es entonces, un sistema de  retención de datos, a corto o a largo plazo, los datos son representados por fenomenos fisicos, que serán utilizados e interpretados posteriormente por otros sistemas informáticos internos de la computadora; ésta información es la que permite superficialmente la interacción con el usuario. Guardar datos requiere de muchos procesos, ya que hay ambiguedades entre la maquina y el hombre, por lo que la memoria del computador debe dividirse en muchos subsistemas y es por ésto que existen diferentes tipos de memoria o tambien conocidos como dispositivos de almacenamiento.
+Es importante recalcar que no hay problema en llamar a un dispositivo de almacenamiento como memoria, ya que la memoria guarda información, independientemente del tiempo, sin embargo, lo contrario no es posible, ya que el dispositivo de almacenamiento guarda informacion por un tiempo prolongado, y la perdida de esta informacion requiere permisos de usuario.
+
+\subsection{Tipos de Memoria}\label{pregunta2}
+Existen demasiados tipos de memoria, en la actualidad se ha avanzado mucho tanto en capacidad, como velocidad, además, como nos cuenta Augusto en su documento \cite{referencia}, las memorias tienen demasiadas funcionalidades, por lo que no todas cumplen con el mismo objetivo, sin embargo, las memorias se pueden clasificar en dos tipos: memorias volátiles y memorias NO volátiles.
+
+
+
+A continuación se presenta el logo de C++ Figura
+Es necesario presentar imagenes explicativas de cada caso.
+
+(\ref{fig:cpplogo})
+
+\begin{figure}[h]
+\includegraphics[width=4cm]{cpplogo.png}
+\centering
+\caption{Logo de C++}
+\label{fig:cpplogo}
+\end{figure}
+
+En la sección de teoremas (\ref{contenido})
+
+\section{Conclusión} \label{conclulsion}
+
+\bibliographystyle{IEEEtran}
+\bibliography{references}
+
+\end{document}
+
