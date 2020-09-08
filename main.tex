@@ -106,7 +106,7 @@ Existen demasiados tipos de memoria, en la actualidad se ha avanzado mucho tanto
         Disco duro: Es la memoria encargada de guardar la mayor parte de información de un computador, puede llegar a tener capadidades de hasta 2 TB en referencias comerciales, lo que le cuesta en velocidad, es la memoria mas lenta del computador aún sabiendo que tecnologias actuales han llegado a velocidades extraordinarias. Es la encargada de guardar informacion como lo es el sistema operativo, programas y multimedia de forma permanente. Por esta razón es comunmente llamdo dispositivo de almacenamiento.
         
         \item
-        Memoria ROM: Esta memoria es de solo lectura, y esta asociada mas al hardware que al software de un computador, ya que contiene los detalles de cada dispositivo interno del ordenador, como sus protocolos de comunicación y sus especificaciones, tambien guarda el programa esencial del computadir, la BIOS, encargada de validar el correcto inicio y funcionamiento del computador.
+        Memoria ROM: Esta memoria es de solo lectura, y esta asociada mas al hardware que al software de un computador, ya que contiene los detalles de cada dispositivo interno del ordenador, como sus protocolos de comunicación y sus especificaciones.
         
         \item
         Memoria USB: La memoria usb es un dispositivo de almacenamiento permanente y extraible, es portatil y de area superficial relativamente pequeña. Es comunmente usada para guardar información multimedia y por esta razón tiene grandes capacidades de almacenamiento.
@@ -121,6 +121,24 @@ Existen demasiados tipos de memoria, en la actualidad se ha avanzado mucho tanto
 \end{itemize}
 
 \subsection{Gestión de Memoria en un Computador}\label{pregunta3}
+Basados en un articulo web de la universidad de Manizales \cite{UdeMa} y en el documento guia \cite{referencia}, podemos facilmente describir la gestión de memoria del computador.
+
+Para empezar la gestión de memoria de un dispositivo informático consiste en mecanimos para asignar secciones de memoria a los programas que las solicitan, y a la vez, liberar las secciones de memoria que ya no se utilizan para que estén disponibles para otros programas. 
+
+La parte del sistema operativo que administra la memoria se llama administrador de memoria y su labor consiste en llevar un registro de las partes de memoria que se estén utilizando y aquellas que no, con el fin de asignar espacio en memoria a los procesos cuando éstos la necesiten y liberándola cuando terminen.
+
+La gestión de memoria tiene características y objetivos muy importantes en el funcionamiento correcto y preventivo. Entre ellas tenemos la protección la cual es el metódo encargado de controlar el uso de memoria en una computadora, de esta manera evita que un proceso acceda a un espacio de almacenamiento que no se le fue asignado. 
+Por otro lado tenemos la memoria compartida, encargada de reutilizar espacios de memoria que ya fueron utilizados y en tiempo real son necesitados, esto permite agilizar los resultados y hacer mas en menos tiempo.
+Tambien se cuenta con la organizacion, primero existe la llamada organización lógica quien permite que los programas se escriban como módulos compilables y ejecutables por separado. Pero por separado esta la organización fisica, la memoria suele dividirse en un almacenamiento primario de alta velocidad y uno secundario de menor velocidad.  La gestión de memoria del sistema operativo se ocupa de trasladar la información entre estos dos niveles de memoria.
+
+Pero, ¿Qué pasa cuando pulsamos el botón de encendido?. 
+Cuando el circuito integrado encargado de verificar la correcta alimentación del sistema, recibe la señal de encendido, inmediatamente envia la señal al procesador de que es inminente el encendido, por lo tanto procede a buscar las instrucciones en la memoria ROM; intrucciones que dan un recorrido entero por el equipo verificando el estado del hardware, cuando certifica que todo esta en excelente estado se carga el programa principal del computador, la BIOS, un programa que se encuentra incorporado en un chip de la placa base, y es quien se encarga de  realizar las funciones básicas de manejo y configuración del ordenador. Se Puede afirmar que es un conjunto de rutinas y procedimientos elementales que coordinan y manejan los elementos de hardware básico.
+Por lo tanto este programa verifica cuantas particiones hay en el disco duro y que sistemas operativos se encuentran en cada una de ellas, si hay mas de un S.O. debe existir una interfaz que muestra en pantalla las opciones posibles de iniciar, si solo hay uno entonces inmediatamente inicia con éste. Una vez hecho este paso, se carga el sistema en la memoria RAM, o por lo menos sus funciones básicas, por esta razón, mientras se muestra el logo de espera de un programa o imagen, el cursor del mouse se puede mover tranquilamente y sin problemas por la pantalla; mientras todo esto pasa, la memoria caché hace funciones básicas mucho mas necesarias, como guardar direcciones de memoria donde se encuentran los elementos del sistema operativo que serán cargados en la memoria RAM o guarda archivos de texto con instrucciones de verificación del propio software, en paralelo el microprocesador hace calculos a velocidades inimaginables para poder atender todas las interrupciones del sistema; antes de terminar de cargar completamente el sistema operativo, hay un paso de verificación, donde el usuario que utilizará el computador se logea y estas credenciales se guardan en memoria RAM para tener a la mano posibles permisos en un futuro y agilizar los procesos, sin esperar que el usuario se logee nuevamente. Paso seguido, el sistema carga los archivos de autorun, estos archivos contienen las instrucciones de carga de programas y funciones necesarias para el usuario, como mostrar la barra de tareas, la imagen que el usuario escogió como fondo de pantalla, o los iconos de los programas disponibles para cargarsen. Una vez hecho ésto, las memorias y dispositivos ya saben como comunicarsen entre si cuando se necesiten mutuamente, y a partir de este momento todas quedan a la espera de las peticiones del usuario, que es quien dirige las instrucciones el resto del tiempo.
+
+\subsection{¿Qué hace que una memoria sea más rápida que otra?
+            ¿Por qué esto es importante?}\label{pregunta4}
+            
+
 
 
 
