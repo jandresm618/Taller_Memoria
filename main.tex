@@ -58,6 +58,15 @@ Se aboradaran varias referencias de manera que haya una sintesis explícita y co
 \subsection{Definicion de Memoria del Computador}\label{pregunta1}
 Para definir la memoria del computador no es necesario investigar mucho al respecto, una persona escogida al azar, y que a su vez haya vivido alguna experiencia cercana a un ordenador puede darnos una definición vaga que nos de mucha información sobre la memoria de un computador. Sin embargo, a un estudiante de las ciencias de la tecnologia no le basta con una respuesta de este tipo, para él es necesario, además de un concepto "desmenuzado", un soporte válido de la información que quiere obtener. Por ésta razón, es necesario adjuntar definiciones oficiales que me guien a dar una definición completa sobre la memoria de un computador.
 
+(\ref{fig:almacenar})
+
+\begin{figure}[h]
+\includegraphics[width=4cm]{almacenar-informacion.jpg}
+\centering
+\caption{Almacenamiento de Informacion}
+\label{fig:almacenar}
+\end{figure}
+
 Wikipedia, una pagina que brinda información a la comunidad, sobre cualquier tema, dice lo siguiente sobre la memoria:
 "En informática, la memoria es el dispositivo que retiene, memoriza o almacena datos informáticos durante algún periodo de tiempo.1​La memoria proporciona una de las principales funciones de la computación moderna: el almacenamiento de información y conocimiento. Es uno de los componentes fundamentales de la computadora, que interconectada a la unidad central de procesamiento (CPU, por las siglas en inglés de Central Processing Unit) y los dispositivos de entrada/salida, implementan lo fundamental del modelo de computadora de la arquitectura de Von Neumann."\cite{wikipedia}
 
@@ -84,6 +93,15 @@ Existen demasiados tipos de memoria, en la actualidad se ha avanzado mucho tanto
     \item
     MEMORIAS VOLÁTILES
     
+    (\ref{fig:volatil})
+
+    \begin{figure}[h]
+    \includegraphics[width=4cm]{Volatiles.jpeg}
+    \centering
+    \caption{Ejemplos de Memorias Volatiles}
+    \label{fig:volatil}
+    \end{figure}
+    
     Se denomina memoria volatil al dispositivo que pierde la informacion cuando se corta el fluido eléctrico. Como ejemplos de memorias volatiles tenemos:
     \begin{itemize}
         \item
@@ -99,6 +117,15 @@ Existen demasiados tipos de memoria, en la actualidad se ha avanzado mucho tanto
     
     \item
     MEMORIAS NO VOLÁTILES
+    
+    (\ref{fig:Novolatil})
+
+    \begin{figure}[h]
+    \includegraphics[width=4cm]{No-volatiles.jpg}
+    \centering
+    \caption{Ejemplos de Memorias NO Volatiles}
+    \label{fig:Novolatil}
+    \end{figure}
     
     Se denomina memoria volatil al dispositivo que pierde la información cuando se corta el fluido eléctrico. Como ejemplos de estas memorias tenemos los siguientes:
     \begin{itemize}
@@ -137,27 +164,33 @@ Por lo tanto este programa verifica cuantas particiones hay en el disco duro y q
 
 \subsection{¿Qué hace que una memoria sea más rápida que otra?
             ¿Por qué esto es importante?}\label{pregunta4}
-            
+Hay muchos factores que determinan la velocidad de una memoria, como por ejemplo, la forma en que estan fabricados, el modo de acceso a la información, y la comunicación que tiene con el microprocesador.
+Ya se habia mencionado de que manera pueden estar fabricada la memoria RAM, por medio de capacitores o por transistores. Además que la DRAM está fabricada con capacitores y la SRAM con transistores, por esto la SRAM es mas rápida que la DRAM. Por otro lado la memoria caché siendo la mas rápida de las memorias esta constrida con memorias SRAM en su interior.
+Ahora el disco duro es el mas lento de las memorias, ya que depende de los giros del disco, que a su vez, los giros dependen del radio, es decir que entre mayor se la capacidad, menor será la velocidad.
+También se habia mencionado que al acceder a una memoria de manera aleartoria, agilizaría el proceso de adquisición de información, mientras que si es un acceso direccionado, se debe utilizar mas tiempo para obtener los datos. Entonces mientras mas grande sea el dispositivo, mas tiempo tomará para cualquier petición.
+Por último y no menos importante, la comunicación, el bus de datos es muy importante a la hora de obtener la información, ya que pueden haber "tacos" o aglomeración de peticiones. Además el ancho del bus de datos permite, duplicar y hasta cuadriplicar el envío de información lo que intuitivamente nos haría pensar que se reduce en la misma proporción el tiempo de ejecución. No es lo mismo un bus de datos de 8 bits que uno de 64 bits.
+
+Analizar estos temas es esencial en el diseño del computador, ya que la demanda se puede ver perjudicada por esta razón. Vivimos en una epoca donde la información se volvió vital en nuestras vidas, por lo tanto, mientras mas rápido accedamos a ella, mejor productividad tendremos en la vida académica o laboral. 
+Desde una perspectiva un poco mas amplia, podríamos pensar en un avión que viaja de un continente a otro; sabemos que cada avión tiene su sistema de comunicación, y que estos sitemas son controlados por computadoras, entonces si una computadora no es lo suficientemente rapida como para procesar la información que se le envía, el piloto no tendría la información de la tormenta que esta próximo a atravesar, o no estaría enterado de que otro avión converge a la misma dirección que viaja él. Estos errores de sistemas pueden provocar catastrofes de magnitudes extraordinarias.
+Es importante saber el papel que juega una memoria en la vida contemporanea, y mas aún, el rol que jugara en los tiempos venideros, donde la tecnología inundará cada rincón del planeta.
 
 
 
+\vspace{10.5cm}
 
 
-A continuación se presenta el logo de C++ Figura
-Es necesario presentar imagenes explicativas de cada caso.
-
-(\ref{fig:cpplogo})
-
-\begin{figure}[h]
-\includegraphics[width=4cm]{cpplogo.png}
-\centering
-\caption{Logo de C++}
-\label{fig:cpplogo}
-\end{figure}
-
-En la sección de teoremas (\ref{contenido})
 
 \section{Conclusión} \label{conclulsion}
+\begin{itemize}
+    \item 
+    Es muy importante conocer lo que hay detrás de cada click en nuestras vidas, en muchos casos, cuando el computador esta lento, el usuario comienza abrir todo y dar click a cuanto icono se le aparezca para "agilizar" el computador, ésto porque ignora el "detras de escenas" e intuitivamente se imagina que asi logrará hacerlo entrar en razón, cuando realmente lo que hace es copándolo de mas tareas e interrupciones del sistema, generando mas pérdida de tiempo y mayor estrés para entregar el trabajo a su jefe. A su vez, el estrés le aumenta la presión arterial, aumentando las posibilidades de un paro cardiaco inmediato. Es increíble lo que hay detrás de la cadena de sucesos que genera un click.
+    \item
+    Al visualizar nuestra vida como programadores de sistemas informáticos, es indispensable conocer los recursos que poseemos y como podemos hacer uso de ellos. Como ingenieros, nuestra tarea es solucionar problemas de la manera mas eficiente, pero, ¿Cómo pretendemos hacer un programa que diagnostique un paciente con COVID-19, si al analizar el tercer paciente no queda espacio suficiente en la memoria?.
+    \item
+    Tan sencillo como el fastidioso mensaje de "No queda espacio disponible en el dispositivo" a la hora de descargar un programa que te salvará el parcial virtual, entonces, no tienes porque gastar tiempo, yendo hasta configuracion-almacenamiento-borrar memoria caché. Conocer los diferentes tipos de memoria nos puede ayudar a resolver problemas simples de la vida cotidiana, en nuestro constante uso de sistemas informáticos.
+    
+\end{itemize}
+
 
 \bibliographystyle{IEEEtran}
 \bibliography{references}
